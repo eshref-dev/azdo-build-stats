@@ -10,7 +10,7 @@ Invoke-Pester .\tests\ -Output Detailed
 Invoke-Pester .\tests\ -Output Detailed -FullNameFilter "Get-AllProjects*"
 
 # С отчётом покрытия кода
-Invoke-Pester .\tests\ -Output Detailed -CodeCoverage .\src\**\*.ps1
+Invoke-Pester .\tests\  -CodeCoverage (Get-ChildItem .\src -Recurse -Filter "*.ps1").FullName
 
 ## Временные файлы тестов
 Создаются в tests\tmp\ и автоматически очищаются после каждого запуска.

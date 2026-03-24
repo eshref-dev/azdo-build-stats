@@ -13,3 +13,5 @@ config.local.ps1
 tests/tmp/
 
 tests/results.xml
+
+coverage.xml
