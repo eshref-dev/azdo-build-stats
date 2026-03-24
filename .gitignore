@@ -1,0 +1,15 @@
+# Логи
+*.log
+output/
+
+*.env
+secrets.ps1
+config.local.ps1
+
+# Временные файлы VS Code
+.vscode/settings.json
+
+# Временные файлы тестов
+tests/tmp/
+
+tests/results.xml
