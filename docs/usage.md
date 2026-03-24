@@ -26,7 +26,7 @@
 
 ```powershell
 # Клонировать репозиторий
-git clone [https://github.com/your-org/azdo-build-stats.git](https://github.com/eshref-dev/azdo-build-stats.git)
+git clone https://github.com/eshref-dev/azdo-build-stats.git
 cd azdo-build-stats
 
 # Убедиться что PowerShell видит скрипты
